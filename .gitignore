@@ -1,0 +1,5 @@
+.build
+.swiftpm
+download
+
+.DS_Store
