@@ -1,5 +1,5 @@
 {
-  "originHash" : "7b2ef3eab5070695d8b47ee3cbfcdb9690e65b8d87c3644e87bbb8f45aaad030",
+  "originHash" : "0dc19cfed52ef62aec43c0d18a6ddcd910af86d448ad1375df245434d8ac8bd0",
   "pins" : [
     {
       "identity" : "boost-assert-spm",
@@ -16,6 +16,15 @@
       "location" : "https://github.com/aleksey-golovanov/boost-config-spm.git",
       "state" : {
         "revision" : "25bc294f555a812d036dc14d4c51581c30578ceb",
+        "version" : "1.89.0"
+      }
+    },
+    {
+      "identity" : "boost-static_assert-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aleksey-golovanov/boost-static_assert-spm.git",
+      "state" : {
+        "revision" : "952e41aefc1b568f8663e0a20053e38952bd4e2e",
         "version" : "1.89.0"
       }
     }

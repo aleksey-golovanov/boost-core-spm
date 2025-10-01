@@ -19,6 +19,10 @@ let package = Package(
             url: "https://github.com/aleksey-golovanov/boost-assert-spm.git",
             from: "1.89.0"
         ),
+        .package(
+            url: "https://github.com/aleksey-golovanov/boost-static_assert-spm.git",
+            from: "1.89.0"
+        ),
     ],
     targets: [
         .target(
@@ -26,6 +30,7 @@ let package = Package(
             dependencies: [
                 .product(name: "BoostConfig", package: "boost-config-spm"),
                 .product(name: "BoostAssert", package: "boost-assert-spm"),
+                .product(name: "BoostStaticAssert", package: "boost-static_assert-spm"),
             ],
             path: "Sources/BoostCore",
         )
